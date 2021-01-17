@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* points status */
+.home-point-status {
+    
+}
+
+/* drop-down */
+
+.drop-down-container {
+    background-color: white;
+    display: flex;
+    height: 3rem;
+    justify-content: space-around;
+}
+
+/* .tree-icon img {
+    max-width: 100%;
+    max-height: 100%;
+    flex-grow: 0.5;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    margin-left: 2rem;
+} */
+
+#i-want-to-redeem {
+    flex-grow: 0.5;
+    padding: 0.5rem;
+    margin-left: 7rem;
+}
+  
+.drop-down-container button {
+    color: rgb(18, 18, 18);
+    border-color: grey;
+    background: rgb(192, 192, 192);
+    border-width: 1px;
+    padding: 0.7rem 1rem;
+    border-radius: 0 !important;   /* remove boostrap border-radius */
+    flex-grow: 2;
+}
+
+.drop-down-container .dropdown-menu {
+    width: 100%; 
+}
+.drop-down-container .dropdown button {
+    width: 18rem;
+}
+
+.drop-down-container #points {
+    text-align: left;
+margin-left: 2rem;
+    align-self: center;   /* vertical */
+    flex-grow: 1;
+}
+.drop-down-container #redeem-btn {
+    flex-grow: 4;
+    text-align: right;
+    margin-right: 7rem;
+}
+
+#redeem-btn a {  /* remove styling */
+    color: inherit; 
+    text-decoration: inherit; 
+  }
+
+/* watch it grow */
+/* ============ THIS IS A PLACEHOLDER ================ */
+#watch-it-grow {
+    background-color: rgb(235, 234, 233);
+    padding: 1rem;
+    height: 40vh;
+}
+
+
+/* total tree planted to date */
+#total-tree {
+    text-align: center;
+}
+
+#total-tree h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+#total-tree .section-header {
+    margin: 6rem 4rem 4rem 4rem;
+    padding-bottom: 2rem;
+    border-bottom: solid grey;
+    border-width: 1px;
+}
+
+.tree-icons {
+    color: green;
+    font-size: xx-large;
+    margin-bottom: 8rem;
+}
+
+
+/* footer */
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 3rem;
+    padding-bottom: 1rem;
+    color: grey;
+}
+

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/index.css">
+
+    <title>My Forest | Home</title>
+    <!-- Font Awesome  -->
+    <script src="https://kit.fontawesome.com/629442e482.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <!-- boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <!-- custome JS -->
+    <script src="js/common.js"></script>
+    <script defer src="js/dropdown.js"></script>
+    <script defer src="js/header.js"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav-bar></nav-bar>
+
+    <div class="container home-point-status">
+        <div class="row">
+            <div class="col-4">
+                <p>Welcome, JANE DOE</p>
+                <p>29,302 pts</p>
+                <p>RBC Rewards+ Visa **** 1234</p>
+            </div>
+            <div class="col-2">
+                <p>Points</p>
+                <p>Activity</p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="drop-down-container">
+        <!--  <div class="tree-icon">
+            <img src="./img/temp-tree-icon.png" alt="tree-icon" width="48">
+        </div> -->
+        <div id="i-want-to-redeem">
+            <p>I want to redeem</p>
+        </div>
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                Select the quantity of tree(s)
+            </button>
+            <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">1 tree</a></li>
+                <li><a class="dropdown-item" href="#">5 trees</a></li>
+                <li><a class="dropdown-item" href="#">10 trees</a></li>
+                <li><a class="dropdown-item" href="#">20 trees</a></li>
+
+            </ul>
+        </div>
+
+        <div id="points">
+            for 500 points per tree
+        </div>
+        <div id="redeem-btn">
+            <button>
+                <a href="redeem.html">Redeem</a>
+            </button>
+        </div>
+    </div>
+
+
+    <!-- temporary tree placeholder -->
+    <br><br><br>
+    <section id="watch-it-grow">
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player src="https://assets8.lottiefiles.com/private_files/lf30_vfgwrgqf.json" background="transparent" speed="1" style="width: 300px; height: 300px;" autoplay></lottie-player>
+    </section>
+
+    <section id="total-tree">
+        <div class="section-header">
+            <h3>Total Trees Planted to Date:</h3>
+        </div>
+        <div class="tree-icons">
+            <i class="fa fa-tree"></i>
+            <i class="fa fa-tree"></i>
+            <i class="fa fa-tree"></i>
+            <i class="fa fa-tree"></i>
+            <i class="fa fa-tree"></i>
+            <i class="fa fa-tree"></i>
+            <i class="fa fa-tree"></i>
+        </div>
+    </section>
+
+    <footer>
+        <img src="img/rbc-footer-logo.svg" alt="RBC Rewards" height="30px">
+        <br><br>
+        <p>© My Forest, 2021. Thank you for making a difference!</p>
+    </footer>
+
+</body>
+
+</html>
