@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
 
 /* footer */
@@ -11,3 +12,79 @@ footer {
     padding-bottom: 1rem;
     color: grey;
 }
+
+/* THE FOLLOWING CODE IS NEW */
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* hero */
+.hero1 {
+    background: url(../img/hero1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero1 h1 {
+    color: white;
+    font-size: 3rem;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+}
+
+/* Choose your location */
+#choose-loc-container {
+    background-color: rgb(240, 240, 240);
+    padding-bottom: 3rem;
+}
+#choose-loc-container h2 {
+    padding: 4.5rem 3rem 1.5rem 3rem;
+}
+
+#map-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0rem 5rem;
+}
+#map-container .img {
+    width: 85px;
+    height: 85px;
+    border: solid black 1px;
+    background-color: white;
+    box-sizing: border-box;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#map-container p {
+    text-align: center;
+}
+#map-container img{
+    max-width: 70px;
+}
+
+/* Choose Your Species */
+.hero2 {
+    background: url(../img/hero2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero2 h2 {
+    color: white;
+    font-size: 3rem;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+}
+
+
+
+
